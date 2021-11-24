@@ -1,0 +1,4 @@
+# Ignore dot files
+._*
+
+!*.efi

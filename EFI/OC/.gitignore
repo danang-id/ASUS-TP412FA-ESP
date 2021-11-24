@@ -1,0 +1,11 @@
+# Except these
+!.gitignore
+!.contentFlavour
+!OpenCore.efi
+!config.plist
+!ACPI/*
+!Drivers/*
+!Kexts/*
+!Resources/*
+!Tools/*
+

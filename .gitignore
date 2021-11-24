@@ -1,0 +1,14 @@
+# Ignore everything
+*
+
+# Except these files...
+!.gitignore
+!LICENSE.md
+!README.md
+!SHELLx64.EFI
+
+# ... and these folders
+!EFI
+
+# ... and it's sub-directories
+!*/

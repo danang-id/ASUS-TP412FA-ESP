@@ -25,8 +25,8 @@ version&mdash; are **not guaranteed** to work as well as describe here.
   - [Legal](#legal)
 
 ## Specification of ASUS TP412FA-EC302T
-- **Processor**: Intel® Core™ i3-8145U
-- **Chipset**: Intel® 8 Series Chipset (formerly named Whiskey Lake)
+- **Processor**: Intel® Core™ i3-8145U (Whiskey Lake)
+- **Chipset**: Intel® Cannon Point-LP
 - **Integrated Graphic**: Intel® UHD Graphics 620
 - **Discrette Graphic**: None
 - **Memory**: 1 x 4 GB DDR4 2400MHz SDRAM (on-board)

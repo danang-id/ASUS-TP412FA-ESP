@@ -51,7 +51,7 @@ version&mdash; are **not guaranteed** to work as well as describe here.
 - **BIOS Version**: TP412FA.310
 
 ## OpenCore Information
-This ESP contains [OpenCore](https://github.com/acidanthera/OpenCorePkg) version 0.7.3. The boot mode used 
+This ESP contains [OpenCore](https://github.com/acidanthera/OpenCorePkg) version 0.7.6. The boot mode used 
 is **UEFI** with **CSM disabled** on **GUID Partition Table (GPT)** storage scheme.
 
 ### UEFI Drivers Used 
@@ -68,9 +68,10 @@ This ESP contains OpenCore configured to run the following macOS, including what
 This OpenCore configuration only support **macOS Big Sur (11)** (limited by APFS minimal version and 
 minimal date). 
 
-**MacBookPro15,4** is used as the SMBIOS of this configuration. Limited by SMBIOS, however, the possible macOS version supported ranges from macOS Mojave (10.15.4) up to the current macOS Monterey (12). But, as of this writing, **macOS Monterey (12)** is not yet tested and supported because this configuration uses an older version of OpenCore.
+**MacBookPro15,4** is used as the SMBIOS of this configuration. Limited by SMBIOS, however, the possible macOS 
+version supported ranges from macOS Mojave (10.15.4) up to the current macOS Monterey (12). 
 
-If support for **macOS Catalina (10.15) or earlier** is required, set the APFS minimal version and minimal date
+If support for **macOS Catalina (10.15) and earlier** is required, set the APFS minimal version and minimal date
 to the target macOS (the configuration value is available on OpenCore official documentation).
 
 ### Works on macOS
@@ -101,7 +102,7 @@ to the target macOS (the configuration value is available on OpenCore official d
 OpenCore loads the kernel extensions with a configured order. Unless specified, this kernel extensions are loaded for 
 macOS Mojave (10.14) up to the latest macOS Monterey (12).
 
-1. USBPorts-MacBookPro15,4
+1. USBPorts
 2. AX88179-178A (for macOS Big Sur and later)
 3. AX88179-178A-Legacy (for macOS Catalina and earlier)
 4. Lilu

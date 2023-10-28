@@ -1,3 +1,10 @@
+> [!NOTE]  
+> This ESP contains older version of OpenCore, your mileage may vary.
+
+> [!IMPORTANT]  
+> ASUS have multiple version of TP412FA model released with different specs (noticable by proccessor generation).
+> This ESP works only for the model with exact speficiations bellow.
+
 # ASUS TP412FA EFI System Partition (ESP)
 
 This repository contains files and folder inside the EFI System Partition (ESP) on my ASUS TP412FA-EC302T notebook. 

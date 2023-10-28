@@ -11,14 +11,14 @@ This repository contains files and folder inside the EFI System Partition (ESP) 
 This ESP contains OpenCore and other UEFI tools to boot to the operating systems I used, which are mainly macOS. 
 Other operating systems, like Windows or Linux, are also supported with this OpenCore configuration.
 
-# Disclaimer!
+## Disclaimer!
 The OpenCore configuration used in *this ESP is tightly linked with my machine's BIOS firmware version and configuration*.
 Any attempts to use this ESP &mdash;even on the same exact brand, model, hardware configuration, and BIOS firmware 
 version&mdash; are **not guaranteed** to work as well as describe here.
 
 ## List of Contents
 - [ASUS TP412FA EFI System Partition (ESP)](#asus-tp412fa-efi-system-partition-esp)
-- [Disclaimer!](#disclaimer)
+  - [Disclaimer!](#disclaimer)
   - [List of Contents](#list-of-contents)
   - [Specification of ASUS TP412FA-EC302T](#specification-of-asus-tp412fa-ec302t)
   - [OpenCore Information](#opencore-information)
